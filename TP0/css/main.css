@@ -1,0 +1,73 @@
+body {
+	margin: 0;
+	padding: 0;
+    background-color: #8b8888;
+}
+
+h1, div, h1, h2, h3, p, a, ul, li, img, label,form{
+	margin: 0;
+	padding: 0;
+	display: block;
+	box-sizing: border-box;
+}
+
+div, p, a, ul, li{
+    font-size: 24px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+	max-width: 1048px;
+	margin: 0 auto;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.header__menu {
+    min-width: 300px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+.header__menu a {
+    transition: all 0.2s;
+    margin-right: 20px;
+    font-size: 20px;
+    color: #000000;
+}
+
+.header__menu a:hover {
+    color: #8b8888
+}
+
+.pageBody__wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.pageBody h1{
+    margin-top: 20px;
+}
+
+.pageBody__left__list {
+    margin-top: 20px;
+}
+
+.pageBody__left__list li {
+    margin-bottom: 20px;
+}
+
+.pageBody__authorPic {
+    max-width: 400px;
+}
